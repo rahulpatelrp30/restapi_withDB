@@ -1,3 +1,5 @@
+@'
 fastapi
 uvicorn[standard]
 pymongo
+'@ | Set-Content -Encoding ascii requirements.txt
